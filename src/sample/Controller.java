@@ -15,8 +15,7 @@ public class Controller {
     @FXML
     private void ui1(MouseEvent event) throws Exception {
 
-        Parent root = null;
-        root = FXMLLoader.load(getClass().getResource("/sample2.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("sample2.fxml"));
 
         borderPane.setCenter(root);
     }
